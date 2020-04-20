@@ -1,0 +1,64 @@
+@import"./normalize.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: block;
+}
+body {
+  position: relative;
+  font: 12px/1.5 microsoft yahei, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f8f8f8;
+  min-width: 1100px;
+  color: #323232;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+i {
+  font-style: italic;
+}
+body, dd, dt, h1, h2, h3, h4, h5, h6, li, p, ul {
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after, .clearfix:before {
+  content: '';
+  display: table;
+  font: 0/0 a;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:after, .clearfix:before {
+  content: '';
+  display: table;
+  font: 0/0 a;
+}
+
+
+element.style {
+}
+.advan p {
+  color: gray;
+}
+.advan-item p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  color: #dadada;
+}
+img {
+  border: none;
+  outline: none;
+}
+
+
