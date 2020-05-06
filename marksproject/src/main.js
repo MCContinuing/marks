@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import store from './store'
+import echarts from 'echarts'
+import AmapVue from 'vue-amap';
+
 import router from './router'
 // axios 网络请求
 import Axios from 'axios'
@@ -37,9 +41,21 @@ Vue.config.productionTip = false
 Axios.defaults.baseURL = 'http://localhost:8080/'
 //给Vue原型挂载一个属性
 Vue.prototype.$axios = Axios
+Vue.prototype.$echarts = echarts;
+
+
+
+// AmapVue.config.key = '9d1776d1178b6d612fcfe491c9349759';
+Vue.use(AmapVue);
+AmapVue.initAMapApiLoader({
+  key:'d899b71eb7ca1191c7cb8eeed39f7473',
+  plugin: ['AMap.Geolocation'],
+})
+// Vue.prototype.$amapvue = AmapVue;
 
 
 new Vue({
+  store,
   router,
   render: h => h(App)
 }).$mount('#app')

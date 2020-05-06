@@ -39,16 +39,22 @@
   <div class="banner">
     <div class="layout clearfix">
       <div class="banner-intro">
-        <h1 class="banner-name">口罩检测</h1>
+        <h1 class="banner-name"  @click="faceRecoClick">人脸识别</h1>
         <p class="banner-des">
           口罩识别技术基于深度学习算法和海量数据集，对图片和视频源中面部特征及口罩进行提取分析。
           可精准实现人脸口罩检测，为特定时期特定场所检测戴口罩人员出入等应用场景提供有力的技术支持。
         </p>
-        <h2 class="banner-name2">实时监控警报</h2>
+<!--        <div class="btns">-->
+<!--          <button class="btn-start" @click="realTimeClick">启用人脸识别</button>-->
+<!--        </div>-->
+        <h2 class="banner-name2"  @click="realTimeClick">实时监控警报</h2>
         <p class="banner-des">
           该平台可与监控设备连接获取实时录像，若发现未戴口罩出入者即引发警报器，提醒相关负责人员有未戴口罩者出入。
           为实时监控人员出入场所实现了人工智能监控警报服务。
         </p>
+<!--        <div class="btns">-->
+<!--          <button class="btn-start" @click="realTimeClick">启用实时监控</button>-->
+<!--        </div>-->
       </div>
       <img src="../assets/images/renwu.png" class="banner-gif">
     </div>
@@ -201,6 +207,12 @@ export default {
     useClick(){
       //跳转
       this.$router.push('/marksTest')
+    },
+    realTimeClick(){
+      this.$router.push('/usage')
+    },
+    faceRecoClick(){
+      this.$router.push('/faceReco')
     }
   },
   components: {
