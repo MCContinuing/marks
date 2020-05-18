@@ -39,7 +39,7 @@
   <div class="banner">
     <div class="layout clearfix">
       <div class="banner-intro">
-        <h1 class="banner-name"  @click="faceRecoClick">人脸识别</h1>
+        <h1 class="banner-name"  @click="faceRecoClick">口罩识别</h1>
         <p class="banner-des">
           口罩识别技术基于深度学习算法和海量数据集，对图片和视频源中面部特征及口罩进行提取分析。
           可精准实现人脸口罩检测，为特定时期特定场所检测戴口罩人员出入等应用场景提供有力的技术支持。
@@ -158,7 +158,7 @@
   </div>
   <div class="demo">
     <div class="layout">
-      <div class="znc">
+      <div class="zc" >
         <img src="../assets/images/zcfb.png" height="150" >
       </div>
     </div>
@@ -181,7 +181,7 @@
       <div class="buttom2">
         <div class="buttom2-center">
           <div class="buttom2-left">
-            <h3>XXXXXX团队</h3>
+            <h3>划水使我快乐</h3>
             <p>海南省海口市美兰区人民街道58号海南大学</p>
             <p>邮编：570000</p>
             <p>联系电话：15967678263 / 13879674583</p>

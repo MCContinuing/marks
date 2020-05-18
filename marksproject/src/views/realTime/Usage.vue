@@ -109,7 +109,7 @@
     position: absolute;
     width: 380px;
     height:380px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     /*background-color: #c2c8ff;*/
     top: 50%;
     left: 50%;

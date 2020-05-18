@@ -36,23 +36,22 @@ import 'lib-flexible'
 ### Vue引入高德地图
 1、安装amap
 ```
-npm install --save vue-amap
+npm install --save @amap/amap-vue
 ```
 2、在main.js中引入
 ```
-Vue.use(AmapVue);
-//初始化
-AmapVue.initAMapApiLoader({
+import AmapVue from '@amap/amap-vue';
+
 //高德事情的key web js端（不是web服务，否则导入自定义地图会失败）
-  key:'d899b71eb7ca1191c7cb8eeed39f7473',
-  plugin: ['AMap.Geolocation'],
-})
+AmapVue.config.key = 'd899b71eb7ca1191c7cb8eeed39f7473'
+AmapVue.config.plugins = []
+Vue.use(AmapVue)
 ```
 3、使用amap
 官方文档：[https://jimnox.gitee.io/amap-vue/](amap-vue官方文档)
 高德文档：[https://lbs.amap.com/](高德开发平台)
 ```
- <el-amap class="amap-demo" vid="amap" :center="center" :zooms="zooms"
+ <amap class="amap-demo" vid="amap" :center="center" :zooms="zooms"
                          mapStyle="amap://styles/ad8448e7f8ce54067517cf5926fff90e"  >
- </el-amap>
+ </amap>
 ```

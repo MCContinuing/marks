@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@amap/amap-vue": "^1.4.0",
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "echarts": "^4.7.0",
@@ -14,7 +15,6 @@
     "vant": "^2.5.3",
     "video.js": "^7.6.6",
     "vue": "^2.6.11",
-    "vue-amap": "^0.5.10",
     "vue-router": "^3.0.7",
     "vuex": "^3.3.0"
   },

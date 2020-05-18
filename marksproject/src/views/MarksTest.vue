@@ -141,6 +141,8 @@
                     <p>{{videoMaskNum}}人</p>
                     <h3>其中未戴口罩者：</h3>
                     <p>{{videoNoMaskNum}}人</p>
+                    <h3>其中体温异常者：</h3>
+                    <p>0人</p>
                   </div>
                 </div>
               </div>

@@ -47,15 +47,8 @@ body, dd, dt, h1, h2, h3, h4, h5, h6, li, p, ul {
 
 element.style {
 }
-.advan p {
-  color: gray;
-}
-.advan-item p {
-  font-size: 14px;
-  line-height: 24px;
-  text-align: justify;
-  color: #dadada;
-}
+
+
 img {
   border: none;
   outline: none;

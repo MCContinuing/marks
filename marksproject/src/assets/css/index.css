@@ -28,6 +28,13 @@
   margin-top: 60px;
   margin-bottom: 40px
 }
+
+.banner-name2:hover{
+  font-size: 30px;
+  color: #9eb0d8;
+  cursor: pointer;
+
+}
 .banner-des {
   font-size: 14px;
   width: 496px;
@@ -255,9 +262,7 @@ i:hover {
   margin-top: 84px;
   height: 190px;
 }
-.advan-item p {
-  color: #323233;
-}
+
 .scene-item .des {
   width: 200px;
 }
@@ -290,7 +295,7 @@ i:hover {
   font-size: 14px;
   line-height: 24px;
   text-align: justify;
-  color: gray;
+  color: #797979;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -299,6 +304,7 @@ i:hover {
   margin: 0;
   padding: 0;
 }
+
 .advan-item h3 {
   margin-top: 26px;
   font-size: 20px;
